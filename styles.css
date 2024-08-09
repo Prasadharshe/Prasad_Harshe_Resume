@@ -314,25 +314,30 @@ hr {
 
 
 .contact-info {
-    display: inline-block;
-    margin-right: 40px;
-    /* color: #C8ACD6; */
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
   
 .contact-info i {
-    width: 35px;
+    width: 35px;    
     height: 05px;
     margin-right: 10px;
     color: #C8ACD6
 }
   
 .contact-info span {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .contact-me{
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-info i:hover{
@@ -350,7 +355,7 @@ hr {
 } 
 
 .thank-you{
-    /* font-size: 2rem; */
+    font-size: 16px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -387,6 +392,93 @@ hr {
 
     }
 }
+
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    /* Adjust layout and styling for mobile devices */
+    .top-container {
+      flex-direction: column;
+    }
+    .middle-container {
+      padding: 20px;
+    }
+    
+    .skills {
+      flex-wrap: wrap;
+    }
+
+    /* footer */
+    .contact-me {
+        flex-direction: column;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .contact-info span {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .thank-you {
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    }
+  
+  /* Tablets (min-width: 769px) and (max-width: 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust layout and styling for tablets */
+    .top-container {
+      flex-direction: row;
+    }
+    .middle-container {
+      padding: 40px;
+    }
+    /* footer */
+    .contact-me {
+        flex-direction: column;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .contact-info span {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .thank-you {
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+  }
+  
+  /* Desktops (min-width: 1025px) */
+@media only screen and (min-width: 1025px) {
+    /* Adjust layout and styling for desktops */
+    .top-container {
+      flex-direction: row;
+    }
+    .middle-container {
+      padding: 60px;
+    }
+    .contact-me { 
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .contact-info span {
+        font-size: 16px;
+        align-items: right;
+        padding: 10px;
+    }
+    .thank-you {
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+  }
 
 @keyframes balloon-animation {
     0% {
