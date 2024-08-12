@@ -426,21 +426,24 @@ hr {
 @media only screen and (max-width: 768px) {
     /* Adjust layout and styling for mobile devices */
     .sun{
-        left: 20px;
-        top: 25px;
+        width: 60px;
+        left: 50px;
+        top: 30px;
     }
     
     .left-cloud{
+        width: 100px;
         left: 270px;
         top: 0;
     }
     .right-cloud {
+        width: 100px;
         right: 270px;
-        top: 260px;
+        top: 280px;
       }
     .birds{
         left: 270px;
-        bottom: 180px;
+        bottom: 260px;
     }
     .coding-image{
         /* padding-top: 20px;  */
@@ -448,6 +451,7 @@ hr {
     }
     .top-container {
         padding-top: 120px; 
+        padding-bottom: 80px;
         
     }
     .middle-container {
