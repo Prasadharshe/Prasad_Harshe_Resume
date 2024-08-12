@@ -19,6 +19,13 @@ window.addEventListener("resize", () => {
     document.querySelector(".navbar ul").classList.remove("show");
     hamburger.classList.toggle("cross");  
   }
+
+  
+});
+const backToTopButton = document.getElementById('back-to-top');
+
+backToTopButton.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 
