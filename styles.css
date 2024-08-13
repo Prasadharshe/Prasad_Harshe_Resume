@@ -452,7 +452,9 @@ hr {
     .top-container {
         padding-top: 120px; 
         padding-bottom: 80px;
-        
+    }
+    .worked-at{
+        font-size: 0.9rem;
     }
     .middle-container {
         padding-top: 50px;
