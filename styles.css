@@ -95,9 +95,8 @@ hr {
 .hamburger {
     display: none;
     cursor: pointer;
-    /* margin: 0; */
+    
 }
-
 .hamburger div {
     width: 25px;
     height: 4px;
@@ -449,6 +448,14 @@ hr {
     .coding-image{
         /* padding-top: 20px;  */
         width: 350px;   
+    }
+
+    .hamburger-box ul{
+        background-color: #eeceb9;
+    }
+    
+    .hamburger-box a{
+        color: #694F8E;
     }
     .top-container {
         padding-top: 120px; 

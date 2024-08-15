@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "cssnano": "^7.0.5"
+  }
+}
